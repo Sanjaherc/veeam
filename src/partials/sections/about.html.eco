@@ -15,17 +15,17 @@
             <div class="columns-holder top-spacing">
                 <div class="col-03">
                     <h2><span><img src="<%= @site.url %>/images/default-icon.png" alt=""/></span><span>Lorem ipsum dolor</span></h2>
-                    <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit. Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit  </p>
+                    <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit.</p>
                 </div>
 
                 <div class="col-03">
                     <h2><span><img src="<%= @site.url %>/images/default-icon.png" alt=""/></span><span>Lorem ipsum dolor</span></h2>
-                    <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit. Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit  </p>
+                    <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit.</p>
                 </div>
 
                 <div class="col-03">
                     <h2><span><img src="<%= @site.url %>/images/default-icon.png" alt=""/></span><span>Lorem ipsum dolor</span></h2>
-                    <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit. Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit  </p>
+                    <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dolor sit.</p>
                 </div>
             </div>
 

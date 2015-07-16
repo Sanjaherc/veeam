@@ -10,4 +10,3 @@ title: "Homepage"
 <%- @partial('sections/help') %>
 <%- @partial('sections/contact') %>
 
-

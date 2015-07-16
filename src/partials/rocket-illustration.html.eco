@@ -248,7 +248,7 @@ M914.085,323.797
 </path>
 
 
-    <circle cx="60" cy="10" r="2" fill="#fff">
+    <circle cx="-960" cy="10" r="2" fill="#fff">
 
         <animate attributeName="cx"
                  attributeType="XML"
@@ -265,7 +265,7 @@ M914.085,323.797
                  repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="60" cy="10" r="3" fill="#fff">
+    <circle cx="-960" cy="10" r="3" fill="#fff">
 
         <animate attributeName="cx"
                  attributeType="XML"
@@ -282,7 +282,7 @@ M914.085,323.797
                  repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="60" cy="10" r="1" fill="#fff">
+    <circle cx="-960" cy="10" r="1" fill="#fff">
 
         <animate attributeName="cx"
                  attributeType="XML"
