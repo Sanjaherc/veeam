@@ -1,0 +1,12 @@
+</div><!--Site wrapper end-->
+
+<!--vendor scripts-->
+<script src="<%= @site.url %>/js//vendor/modernizr.custom.17475.js"></script>
+<script src="<%= @site.url %>/js//vendor/jquery.easing.min.js"></script>
+<script src="<%= @site.url %>/js/vendor/jquery.viewportchecker.js"></script>
+
+
+<!--app-->
+<script src="<%= @site.url %>/js/app.js"></script>
+</body>
+</html>

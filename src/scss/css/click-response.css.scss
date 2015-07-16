@@ -1,0 +1,110 @@
+@import 'variables';
+
+.click-response {
+  position: relative;
+  overflow: hidden;
+  response {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: -15px;
+    border-radius: 100%;
+    z-index: 1000;
+    background: rgba(0,0,0,0.2);
+
+    animation-name: clickResponse;
+    -webkit-animation-name: clickResponse;
+    animation-duration: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+.click-response.visible-click {
+  overflow: visible;
+
+  response {
+    animation-name: clickResponseSmall;
+    -webkit-animation-name: clickResponseSmall;
+    animation-duration: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes clickResponse {
+  0% {
+    opacity: 0;
+    @include scale(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    @include scale(2.3, 2.3);
+  }
+
+  100% {
+    opacity: 0;
+    @include scale(7, 7);
+  }
+}
+
+@-webkit-keyframes clickResponse {
+  0% {
+    opacity: 0;
+    @include scale(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    @include scale(3.3, 3.3);
+  }
+
+  100% {
+    opacity: 0;
+    @include scale(7, 7);
+  }
+}
+
+//////////////////////////////////////////
+
+@keyframes clickResponseSmall {
+  0% {
+    opacity: 0;
+    @include scale(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    @include scale(1.5, 1.5);
+  }
+
+  100% {
+    opacity: 0;
+    @include scale(3, 3);
+  }
+}
+
+@-webkit-keyframes clickResponseSmall {
+  0% {
+    opacity: 0;
+    @include scale(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    @include scale(1.5, 1.5);
+  }
+
+  100% {
+    opacity: 0;
+    @include scale(3, 3);
+  }
+}

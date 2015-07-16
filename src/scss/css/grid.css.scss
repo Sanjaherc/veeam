@@ -1,0 +1,80 @@
+@import 'variables';
+
+.relative {
+  position: relative;
+}
+
+.y-spacing {
+  padding: $element-spacing 0;
+}
+
+
+
+[class^="col-"], [class*="col-"]{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.table-column-grid{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  [class^="col-"], [class*="col-"]{
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+.align-top{
+  >*{
+    vertical-align: top;
+  }
+}
+
+.col-03 {
+  width: 30.7%;
+  margin-right: 2.5%;
+}
+
+.col-03:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+
+.col-02 {
+  width: 47.7%;
+  margin-right: 2.5%;
+}
+
+.col-02:nth-child(2n + 2) {
+  margin-right: 0;
+}
+
+.col-03x2 {
+  width: 66.4%;
+}
+
+
+.column-grid {
+  .col-03:nth-child(1), .col-03:nth-child(2), .col-03:nth-child(3){
+    margin-top: 0;
+  }
+  .col-03 {
+    margin-top: 2.5%;
+  }
+}
+
+.table-column-grid{
+  .col-02 {
+    padding-right: 2.5%;
+  }
+  .col-02:nth-child(2n + 2) {
+    padding-right: 0;
+  }
+  .col-03 {
+    padding-right: 2.5%;
+  }
+  .col-03:nth-child(3n + 3) {
+    padding-right: 0;
+  }
+}

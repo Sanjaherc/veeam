@@ -1,0 +1,235 @@
+@import 'variables';
+
+$radius: 5px;
+$form-elem-height: 55px;
+$form-elem-spacing: 20px;
+
+.btn {
+  display: block;
+  height: $form-elem-height *1.2;
+  line-height: $form-elem-height*1.2;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  border: transparent;
+  border-radius: $radius;
+  background: $green;
+  color: $white;
+  width: 100%;
+  text-align: center;
+  @include basicTransition;
+  &:hover {
+    background: darken($green, 10);
+  }
+}
+
+.btn.yellow {
+  background: $yellow;
+  &:hover {
+    background: darken($yellow, 10);
+  }
+}
+
+.btn.red {
+  background: $red;
+  &:hover {
+    background: darken($red, 10);
+  }
+}
+
+
+form {
+  display: block;
+  .block {
+    display: block;
+    position: relative;
+  }
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  line-height: $form-elem-height;
+  padding: 0 $form-elem-height/2;
+  background: $white;
+  display: block;
+  border-radius: $radius;
+  font-size: 15px;
+  color: $main-text;
+  border: solid 1px transparent;
+  position: relative;
+  @include basicTransition;
+
+  &:focus {
+    background: transparent;
+    color: $white;
+    border-color: $white;
+  }
+  &:focus + i {
+    color: $white !important;
+  }
+
+
+  &.error {
+    background: transparent;
+    color: $red;
+    border-color: $red;
+  }
+  &.error + i {
+    color: $red !important;
+  }
+
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 15px $form-elem-height/2;
+  background: $white;
+  display: block;
+  border-radius: $radius;
+  font-size: 15px;
+  color: $main-text;
+  border: solid 1px transparent;
+  position: relative;
+  @include basicTransition;
+
+  &:focus {
+    background: transparent;
+    color: $white;
+    border-color: $white;
+  }
+  &:focus + i {
+    color: $white !important;
+  }
+
+  &.error {
+    background: transparent;
+    color: $red;
+    border-color: $red;
+  }
+  &.error + i {
+    color: $red !important;
+  }
+}
+
+
+input.error, textarea.error {
+  &::-webkit-input-placeholder {
+    color: $red;
+  }
+  &:-moz-placeholder {
+    color: $red;
+    opacity: 1;
+  }
+  &::-moz-placeholder {
+    color: $red;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: $red;
+  }
+
+  &:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  &:focus:-moz-placeholder {
+    color: transparent;
+  }
+  /* FF 4-18 */
+  &:focus::-moz-placeholder {
+    color: transparent;
+  }
+  /* FF 19+ */
+  &:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+}
+
+input, textarea {
+  &::-webkit-input-placeholder {
+    color: $light-text;
+  }
+  &:-moz-placeholder {
+    color: $light-text;
+    opacity: 1;
+  }
+  &::-moz-placeholder {
+    color: $light-text;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: $light-text;
+  }
+
+  &:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  &:focus:-moz-placeholder {
+    color: transparent;
+  }
+  /* FF 4-18 */
+  &:focus::-moz-placeholder {
+    color: transparent;
+  }
+  /* FF 19+ */
+  &:focus:-ms-input-placeholder {
+    color: transparent;
+  }
+}
+
+
+/****error block element****/
+.error-block {
+  padding: 6px 10px;
+  text-align: center;
+  background: $red;
+  color: $white;
+  border-radius: $radius;
+  position: relative;
+  >*{
+    margin: 0;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: -12px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 12px 10px;
+    border-color: transparent transparent $red transparent;
+
+  }
+}
+
+
+
+/****specific forms*****/
+
+.index-form {
+  .block{
+    margin:  $form-elem-spacing 0;
+    i {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: $form-elem-height;
+      width: $form-elem-height;
+      line-height: $form-elem-height;
+      font-size: 22px;
+      text-align: center;
+      z-index: 1;
+      color: $light-text;
+    }
+  }
+  input {
+    padding: 0 $form-elem-height/2 0 $form-elem-height;
+  }
+  textarea {
+    padding: 15px $form-elem-height/2 15px $form-elem-height;
+  }
+}

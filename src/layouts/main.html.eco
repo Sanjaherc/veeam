@@ -1,0 +1,10 @@
+<%- @partial('site-head') %>
+
+
+<%- @content %>
+
+
+
+<%- @partial('site-bottom') %>
+
+

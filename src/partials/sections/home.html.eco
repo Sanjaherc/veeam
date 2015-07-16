@@ -1,0 +1,41 @@
+<section class="section bg-main first-section" data-scroll-target="home" id="home">
+    <section class="wrapper">
+        <div class="hero relative" data-height="50">
+            <div class="hero-text">
+                <h1>Fast.</h1>
+                <h2>Veeam Cloud Connecting</h2>
+                <h3>lorem ipsum dolor sit amet, consectetuer </h3>
+            </div>
+            <%- @partial('rocket-illustration') %>
+        </div>
+    </section>
+    <section class="bg-dark y-spacing" data-height="50">
+        <div class="wrapper align-top top-spacing">
+            <div class="col-03">
+                <h2>Create account or login</h2>
+                <form action="" class="index-form">
+                    <div class="block click-response">
+                        <input type="text" class="username" placeholder="username"/>
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="block click-response">
+                        <input type="password" class="pass" placeholder="password"/>
+                        <i class="icon-lock"></i>
+                    </div>
+                    <div class="block click-response">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-03x2 trial">
+                <h2>Create account today and get your </h2>
+                <h1 class="green"><span><img src="<%= @site.url %>/images/low-cost.png" alt=""/></span><span>free trial</span></h1>
+                <p>Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat orem ipsum dolor sit ame amet, constuer adipiscing elit  adipiscing nonummy erat</p>
+                <img src="<%= @site.url %>/images/veeam-logo.png" alt="" class="pull-right"/>
+                <img src="<%= @site.url %>/images/trial-badge.png" alt="" class="badge"/>
+            </div>
+        </div>
+
+    </section>
+
+</section>

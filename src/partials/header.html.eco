@@ -1,0 +1,36 @@
+<header class="main-header">
+    <div class="wrapper">
+        <div class="pull-left">
+            <a class="logo" href="" data-scroll-trigger="home">
+                <img src="<%= @site.url %>/images/tf_logo.svg" alt="ThinFactory logo"/>
+            </a>
+        </div>
+
+        <div class="pull-right">
+            <div class="lang-dropdown">
+                <nav class="lang-dropdown-holder">
+                    <div class="drop-trigger"><span>Eng</span></div>
+                    <ul class="drop-container">
+                        <li><a href="#">Language</a></li>
+                        <li><a href="#">Language</a></li>
+                        <li><a href="#">Language</a></li>
+                        <li><a href="#">Language</a></li>
+                        <li><a href="#">Language</a></li>
+                        <li><a href="#">Language</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li data-scroll-trigger="home" class="click-response"><a href="#home">Home</a></li>
+                    <li data-scroll-trigger="about" class="click-response"><a href="#about">About</a></li>
+                    <li data-scroll-trigger="products" class="click-response"><a href="#products">Products</a></li>
+                    <li data-scroll-trigger="features" class="click-response"><a href="#features">Features</a></li>
+                    <li data-scroll-trigger="help" class="click-response"><a href="#help">Help</a></li>
+                    <li data-scroll-trigger="contact" class="click-response"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</header>

@@ -1,0 +1,144 @@
+@import 'variables';
+
+.main-header {
+  @include clearfix;
+  @include basicTransition;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 10px;
+  z-index: 5;
+  background: $main;
+  a {
+    color: $white;
+  }
+  &.change {
+    box-shadow: 0 0 3px rgba(0,0,0,0.06), 0 0 20px rgba(0,0,0,0.1), ;
+  }
+}
+
+
+.logo {
+  height: 90px;
+  line-height: 90px;
+  display: block;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+
+.lang-dropdown {
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+.lang-dropdown-holder {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  @include clearfix;
+
+  .drop-trigger {
+    cursor: pointer;
+    position: relative;
+    padding: 0 30px 0 15px;
+    border-radius: 3px 3px 0 0;
+    line-height: 30px;
+    @include basicTransition;
+    span {
+      display: inline-block;
+      font-size: 14px;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+    span:after {
+      content:'\e20b';
+      font-family: 'veeam';
+      font-size: 18px;
+      margin-left: 5px;
+      opacity: 0.4;
+      width: 30px;
+      line-height: 30px;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      @include basicTransition;
+    }
+  }
+  .drop-trigger.active {
+    background: $dark;
+    color: $white;
+      span:after {
+        @include rotate(180deg);
+      }
+  }
+  .drop-container {
+    position: absolute;
+    top: 100%;
+    min-width: 200px;
+    max-height: 500px;
+    overflow-y: auto;
+    right: 0;
+    background: $dark;
+    border-radius: 3px 0 3px 3px;
+    z-index: 1;
+    @include basicTransition;
+    @include translate(0, -110%);
+    opacity: 0;
+    visibility: hidden;
+
+    &.active {
+      @include noTransform;
+      opacity: 1;
+      visibility: visible;
+    }
+
+    a {
+      color: $white;
+      line-height: 40px;
+      display: block;
+      font-size: 14px;
+      padding: 0 20px;
+      text-transform: uppercase;
+      @include basicTransition;
+      &:hover {
+        background: rgba(255,255,255,0.05);
+      }
+    }
+  }
+}
+
+
+/****main menu****/
+
+.main-menu {
+  display: block;
+  text-align: right;
+  ul {
+    display: inline-block;
+    li {
+      display: inline-block;
+      a {
+        line-height: 50px;
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 16px;
+        text-transform: uppercase;
+        @include basicTransition;
+      }
+      a:hover {
+        background: rgba(0,0,0,0.06);
+      }
+      &.active {
+        a {
+          color: $yellow;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,13 @@
+---
+layout: "main"
+title: "Homepage"
+---
+
+<%- @partial('sections/home') %>
+<%- @partial('sections/about') %>
+<%- @partial('sections/products') %>
+<%- @partial('sections/features') %>
+<%- @partial('sections/help') %>
+<%- @partial('sections/contact') %>
+
+

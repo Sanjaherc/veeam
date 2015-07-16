@@ -1,0 +1,46 @@
+<section class="section bg-main-darker" data-scroll-target="features" id="features">
+    <section class="wrapper">
+        <h1 class="section-heading">Features</h1>
+        <div class="columns-holder y-spacing column-grid">
+            <div class="col-03 product-box">
+                <i class="feature-icon icon-like"></i>
+                <h2>30 days free trial</h2>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+            </div>
+
+            <div class="col-03 product-box">
+                <i class="feature-icon icon-help"></i>
+                <h2>30 days free trial</h2>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+            </div>
+
+            <div class="col-03 product-box">
+                <i class="feature-icon icon-server"></i>
+                <h2>30 days free trial</h2>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+            </div>
+
+            <div class="col-03 product-box">
+                <i class="feature-icon icon-monitor"></i>
+                <h2>30 days free trial</h2>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+            </div>
+
+            <div class="col-03 product-box">
+                <i class="feature-icon icon-cloud"></i>
+                <h2>30 days free trial</h2>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+            </div>
+
+            <div class="col-03 product-box">
+                <i class="feature-icon icon-idea"></i>
+                <h2>30 days free trial</h2>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</section>

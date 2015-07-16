@@ -1,0 +1,89 @@
+<section class="section bg-main-darker contact-section relative" data-scroll-target="contact" id="contact">
+    <section class="wrapper">
+        <h1 class="section-heading">Contact</h1>
+        <div class="columns-holder y-spacing align-top">
+            <div class="col-03">
+                <h4>Send us message</h4>
+                <form action="" class="index-form">
+                    <div class="block click-response">
+                        <input type="text" class="name" placeholder="name"/>
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="block click-response">
+                        <input type="email" class="email error" placeholder="email"/>
+                        <i class="icon-email"></i>
+                    </div>
+                    <div class="error-block">
+                        <p><b>Warning!</b> Email field is not valid.</p>
+                    </div>
+                    <div class="block click-response">
+                        <textarea name="" id="" cols="30" rows="10" class="" placeholder="message"></textarea>
+                        <i class="icon-message"></i>
+                    </div>
+                    <div class="block click-response">
+                        <button type="submit" class="btn">Send</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-03">
+                <h4>Company info</h4>
+                <div class="bottom-spacing">
+                    <p class="yellow">Address</p>
+                    <p>Thinfactory NV/SA, <br/>Ikaroslaan 25, B-1930 Zaventem, België</p>
+                </div>
+
+                <div class="bottom-spacing">
+                    <p class="yellow">Support</p>
+                    <p>vanuit België: +32 (0)70 22 01 82 <br/>
+                        andere landen: +32 (0)2 720 58 44 <br/>
+                        e-mail: servicedesk@thinfactory.com
+                    </p>
+                </div>
+
+                <div class="bottom-spacing">
+                    <p class="yellow">Sales</p>
+                    <p>tel: +32 (0)2 721 39 45 <br/>
+                        e-mail: sales@thinfactory.com
+                    </p>
+                </div>
+
+                <div class="bottom-spacing">
+                    <p class="yellow">Office Hours</p>
+                    <p>Monday-Thursday : 09:00 - 17:00 <br/>
+                        Friday : 09:00 - 14:00 <br/>
+                        Sat-Sun : closed
+                    </p>
+                </div>
+            </div>
+            <div class="col-03">
+                <div class="bottom-spacing">
+                    <h4>Social networks</h4>
+                    <div class="social-menu">
+                        <ul>
+                            <li><a href=""><i class="icon-linkedin"></i></a></li>
+                            <li><a href=""><i class="icon-facebook"></i></a></li>
+                            <li><a href=""><i class="icon-twitter"></i></a></li>
+                            <li><a href=""><i class="icon-google-plus"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="bottom-spacing">
+                    <h4>Legal</h4>
+                    <div class="legal-menu">
+                        <ul>
+                            <li><a href=""><i class="icon-pdf"></i><span>Terms and conditions</span></a></li>
+                            <li><a href=""><i class="icon-pdf"></i><span>Terms and conditions</span></a></li>
+                            <li><a href=""><i class="icon-pdf"></i><span>Terms and conditions</span></a></li>
+                            <li><a href=""><i class="icon-pdf"></i><span>Terms and conditions</span></a></li>
+                            <li><a href=""><i class="icon-pdf"></i><span>Terms and conditions</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <%- @partial('footer') %>
+</section>

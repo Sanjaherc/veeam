@@ -1,0 +1,110 @@
+@import 'variables';
+
+@charset "utf-8";
+
+/*setup*/
+*, *:after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+//html, body, {
+//  min-height: 100%;
+//}
+
+/*style*/
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  font-family: 'Exo', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: $white;
+  font-size: 17px;
+  line-height: 1.4em;
+  cursor: default;
+  background: #eee;
+  width: 100%;
+}
+
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -moz-tap-highlight-color: rgba(255, 255, 255, 0);
+  tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+*:focus {
+  outline: none
+}
+
+.site-wrapper {
+  display: block;
+  width: 100%;
+  min-width: 1200px;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: block;
+}
+
+
+.full-height{
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: $main;
+}
+
+p {
+  margin: 10px 0
+}
+
+b {
+  font-weight: 700
+}
+
+i {
+  font-style: italic
+}
+
+img {
+  max-width: 100%;
+}
+.white {
+  color: $white;
+}
+.yellow {
+  color: $yellow;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.bottom-spacing {
+  margin-bottom: 30px;
+}
+.top-spacing {
+  margin-top: 30px;
+}
+
+.hover-scale {
+  @include basicTransition;
+  &:hover {
+    @include scale(1.05,1.05);
+  }
+}
+
