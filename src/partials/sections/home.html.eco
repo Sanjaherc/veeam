@@ -32,7 +32,11 @@
                 <h1 class="green"><span><img src="<%= @site.url %>/images/low-cost.png" alt=""/></span><span>free trial</span></h1>
                 <p>Lorem ipsum dolor sit amet es, ctetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
                 <img src="<%= @site.url %>/images/veeam-logo.png" alt="" class="pull-right"/>
-                <img src="<%= @site.url %>/images/trial-badge.png" alt="" class="badge"/>
+                <div class="badge">
+                    <span>30</span>
+                    <span>days trial</span>
+                    <img src="<%= @site.url %>/images/trial-badge.png" alt=""/>
+                </div>
             </div>
         </div>
 

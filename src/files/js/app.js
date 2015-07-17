@@ -169,18 +169,11 @@ function identifySections() {
         }
     });
 
-    $sections.viewportChecker({
-        classToAdd: 'anim',
+    $('.animated-el').addClass('hidden').viewportChecker({
+        classToAdd: 'visible animated flipInY',
         offset: 100,
         repeat: true
     });
-
-    $sections.viewportChecker({
-        classToAdd: 'svg-anim',
-        offset: 200,
-        repeat: false
-    });
-
 
     function stickHeader() {
         var $el = $('.stick-menu');

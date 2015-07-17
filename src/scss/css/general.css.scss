@@ -59,6 +59,13 @@ body {
   min-height: 100vh;
 }
 
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
 a {
   text-decoration: none;
   color: $main;

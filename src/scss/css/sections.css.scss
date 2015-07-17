@@ -118,7 +118,32 @@ h4 {
     position: absolute;
     right: 0;
     top: 0;
+    width: 193px;
   }
+
+
+  .badge span:nth-child(1){
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: center;
+      width: 100%;
+      font-size: 65px;
+      font-weight: 700;
+      line-height: 165px;
+      height: 165px;
+    }
+
+  .badge span:nth-child(2){
+      position: absolute;
+      top: 90px;
+      right: 0;
+      text-align: center;
+      width: 100%;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 80px;
+    }
 }
 
 
@@ -196,6 +221,12 @@ h4 {
   width: 350px;
   height: 350px;
 }
+
+.features-box.animated-el:nth-child(2){ animation-delay: 0.1s;}
+.features-box.animated-el:nth-child(3){ animation-delay: 0.2s;}
+.features-box.animated-el:nth-child(4){ animation-delay: 0.3s;}
+.features-box.animated-el:nth-child(5){ animation-delay: 0.4s;}
+.features-box.animated-el:nth-child(6){ animation-delay: 0.5s;}
 
 
 /*********HELP questions and answers****************/

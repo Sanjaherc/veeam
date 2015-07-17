@@ -2,37 +2,37 @@
     <section class="wrapper">
         <h1 class="section-heading">Features</h1>
         <div class="columns-holder y-spacing column-grid">
-            <div class="col-03 product-box">
+            <div class="col-03 product-box animated-el">
                 <i class="feature-icon icon-like"></i>
                 <h2>Simple and Easy</h2>
                 <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
             </div>
 
-            <div class="col-03 product-box features-box">
+            <div class="col-03 product-box features-box animated-el">
                 <i class="feature-icon icon-help"></i>
                 <h2>Peace of Mind</h2>
                 <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
             </div>
 
-            <div class="col-03 product-box features-box">
+            <div class="col-03 product-box features-box animated-el">
                 <i class="feature-icon icon-server"></i>
                 <h2>Avert any Disaster</h2>
                 <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
             </div>
 
-            <div class="col-03 product-box features-box">
+            <div class="col-03 product-box features-box animated-el">
                 <i class="feature-icon icon-monitor"></i>
                 <h2>24/7 Monitoring and Support</h2>
                 <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit</p>
             </div>
 
-            <div class="col-03 product-box features-box">
+            <div class="col-03 product-box features-box animated-el">
                 <i class="feature-icon icon-cloud"></i>
                 <h2>The Sky is the Limit</h2>
                 <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
             </div>
 
-            <div class="col-03 product-box features-box">
+            <div class="col-03 product-box features-box animated-el">
                 <i class="feature-icon icon-idea"></i>
                 <h2>We know our stuff!</h2>
                 <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>

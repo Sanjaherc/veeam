@@ -29,7 +29,7 @@
               <animate
                   repeatCount="indefinite"
                   attributeName="d"
-                  dur="5s"
+                  dur="7s"
 		          begin="0s"
                   keyTimes="0; 0.5; 1"
                   values="M1194.89,480
@@ -210,7 +210,7 @@ M1130,480
           <animate
                   repeatCount="indefinite"
                   attributeName="d"
-                  dur="2s"
+                  dur="3.5s"
 		          begin="0s"
                   keyTimes="0; 0.5; 1"
                   values="M914.085,323.797
@@ -252,14 +252,14 @@ M914.085,323.797
 
         <animate attributeName="cx"
                  attributeType="XML"
-                 dur="1.1s"
+                 dur="2.3s"
                  values="1176; 837;"
                  keyTimes="0 ; 1"
                  repeatCount="indefinite"/>
 
         <animate attributeName="cy"
                  attributeType="XML"
-                 dur="1.1s"
+                 dur="2.3s"
                  values="0 ; 480;"
                  keyTimes="0 ; 1"
                  repeatCount="indefinite"/>
@@ -269,14 +269,14 @@ M914.085,323.797
 
         <animate attributeName="cx"
                  attributeType="XML"
-                 dur="0.7s"
+                 dur="1.1s"
                  values="837; 498;"
                  keyTimes="0 ; 1"
                  repeatCount="indefinite"/>
 
         <animate attributeName="cy"
                  attributeType="XML"
-                 dur="0.7s"
+                 dur="1.1s"
                  values="0 ; 480;"
                  keyTimes="0 ; 1"
                  repeatCount="indefinite"/>
@@ -286,14 +286,14 @@ M914.085,323.797
 
         <animate attributeName="cx"
                  attributeType="XML"
-                 dur="0.3s"
+                 dur="0.7s"
                  values="687; 348;"
                  keyTimes="0 ; 1"
                  repeatCount="indefinite"/>
 
         <animate attributeName="cy"
                  attributeType="XML"
-                 dur="0.3s"
+                 dur="0.7s"
                  values="0 ; 480;"
                  keyTimes="0 ; 1"
                  repeatCount="indefinite"/>
