@@ -139,7 +139,7 @@ function scrollTrigger() {
         var $goTo = $(document).find('[data-scroll-target= ' + $data + ']');
 
         $('html, body').stop().animate({
-            scrollTop: $goTo.offset().top - $headerHeight +'px'
+            scrollTop: $goTo.offset().top - $headerHeight + 2 +'px'
         }, speed);
         $('[data-scroll-trigger]').removeClass('active');
         $(this).addClass('active');
