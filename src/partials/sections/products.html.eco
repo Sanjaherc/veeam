@@ -4,7 +4,7 @@
         <div class="columns-holder y-spacing">
             <div class="col-03 product-box hover-scale">
                 <h2>30 days <br/> free trial</h2>
-                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam </p>
                 <h1 class="price">
                     <span><img src="<%= @site.url %>/images/low-cost.png" alt=""/></span>
                     <span><small>30 days</small>free trial</span>
@@ -15,7 +15,7 @@
 
             <div class="col-03 product-box hover-scale">
                 <h2>Belgacom <br/> Netcenter II</h2>
-                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam </p>
                 <h2 class="price">
                     <span><img src="<%= @site.url %>/images/cost.png" alt=""/></span>
                     <span><small>starting from</small>45 cents <aside class="white">per 2gb</aside></span>
@@ -26,7 +26,7 @@
 
             <div class="col-03 product-box hover-scale">
                 <h2>Mobistar <br/> Enterprise Services</h2>
-                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam nonummy</p>
+                <p>Volutpat orem ipsum dolor sit amet, constuer sds sfsadipiscing elitsads  adipiscing nonummy. Lorem ipsum dolor sit amet, ctetuer adipiscing elit, sed diam </p>
                 <h2 class="price">
                     <span><img src="<%= @site.url %>/images/cost.png" alt=""/></span>
                     <span><small>starting from</small>45 cents <aside class="white">per 2gb</aside></span>

@@ -127,6 +127,7 @@ h4 {
 .product-box {
   padding: $product-box-spacing*2 $product-box-spacing;
   background: rgba(255,255,255,0.05);
+  max-height: 510px;
   .price{
     text-align: left;
     line-height: 70px;
@@ -189,6 +190,11 @@ h4 {
 }
 .product-box.hover-scale:hover {
   background: rgba(255,255,255,0.1);
+}
+
+.features-box{
+  width: 350px;
+  height: 350px;
 }
 
 
